@@ -1,0 +1,63 @@
+html{
+  display: block;
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 8px;
+}
+
+h1 {
+    display: block;
+    font-size: 50px;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 42px;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    color: Gray;
+    font-size: 21px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.cta {
+    color: Aquamarine;
+    font-size: 16px;
+}
+
+a:-webkit-any-link {
+    cursor: auto;
+    text-decoration: underline;
+}
+video {
+    object-fit: contain;
+}
+
+.footer {
+    text-align: right;
+    display: block;
+}
